@@ -1,0 +1,213 @@
+{
+  "header": {
+    "nav": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "portfolio": "Portafolio",
+      "technologies": "Tecnologías",
+      "about": "Nosotros",
+      "contact": "Contacto"
+    },
+    "cta": "Solicitar Consulta Gratuita",
+    "language": {
+      "es": "Español",
+      "en": "English"
+    }
+  },
+  "hero": {
+    "badge": "Soluciones Tecnológicas Innovadoras",
+    "title": "Transformamos Tu {{highlight1}} con {{highlight2}} e IA",
+    "highlight1": "Negocio",
+    "highlight2": "Tecnología",
+    "subtitle": "Desarrollo web, automatizaciones y chatbots inteligentes para empresas que quieren crecer y destacar en la era digital.",
+    "cta": {
+      "primary": "Ver Nuestros Servicios",
+      "secondary": "Hablar con un Experto"
+    },
+    "stats": {
+      "projects": "Proyectos Entregados",
+      "costReduction": "Reducción Costos",
+      "support": "Soporte 24/7"
+    }
+  },
+  "services": {
+    "badge": "Nuestros Servicios",
+    "title": "Soluciones Digitales {{highlight}}",
+    "highlight": "Completas",
+    "subtitle": "Ofrecemos un conjunto integral de servicios tecnológicos diseñados para impulsar el crecimiento de tu negocio en la era digital.",
+    "learnMore": "Saber más",
+    "modal": {
+      "features": "Características incluidas:",
+      "technologies": "Tecnologías:",
+      "consult": "Consultar",
+      "timeline": "Tiempo de entrega",
+      "cta": "Solicitar consulta gratuita",
+      "close": "Cerrar"
+    }
+  },
+  "process": {
+    "badge": "Cómo Trabajamos",
+    "title": "Nuestro {{highlight}}",
+    "highlight": "Proceso",
+    "subtitle": "Un enfoque estructurado y transparente para llevar tu proyecto desde la idea hasta la realidad.",
+    "steps": {
+      "1": {
+        "title": "Consulta Inicial",
+        "description": "Entendemos tus necesidades, objetivos y desafíos específicos. Analizamos tu negocio para identificar oportunidades de mejora."
+      },
+      "2": {
+        "title": "Propuesta",
+        "description": "Diseñamos una solución personalizada con alcance detallado, cronograma y presupuesto transparente."
+      },
+      "3": {
+        "title": "Desarrollo",
+        "description": "Implementamos la solución con metodologías ágiles, actualizaciones constantes y revisiones periódicas."
+      },
+      "4": {
+        "title": "Lanzamiento",
+        "description": "Ponemos en marcha la solución con capacitación completa para tu equipo y documentación detallada."
+      },
+      "5": {
+        "title": "Soporte Continuo",
+        "description": "Mantenimiento proactivo, mejoras continuas y soporte técnico disponible cuando lo necesites."
+      }
+    }
+  },
+  "technologies": {
+    "badge": "Stack Tecnológico",
+    "title": "Tecnologías que {{highlight}}",
+    "highlight": "Utilizamos",
+    "subtitle": "Trabajamos con las tecnologías más modernas y robustas del mercado para garantizar soluciones escalables y de alta calidad."
+  },
+  "industries": {
+    "badge": "Industrias que Servimos",
+    "title": "Soluciones por {{highlight}}",
+    "highlight": "Industria",
+    "subtitle": "Adaptamos nuestras soluciones tecnológicas a las necesidades específicas de cada sector, garantizando resultados óptimos para tu tipo de negocio.",
+    "viewSolutions": "Ver soluciones",
+    "modal": {
+      "solutions": "Soluciones específicas para",
+      "caseStudy": "Caso de éxito",
+      "cta": "Hablar con un especialista",
+      "close": "Cerrar"
+    }
+  },
+  "benefits": {
+    "badge": "Resultados Comprobados",
+    "title": "Beneficios {{highlight}}",
+    "highlight": "Clave",
+    "subtitle": "Números que hablan por sí solos. Estos son los resultados que nuestros clientes han logrado al implementar nuestras soluciones.",
+    "stats": {
+      "responseTime": {
+        "label": "Reducción en tiempo de respuesta al cliente",
+        "description": "Con chatbots inteligentes 24/7"
+      },
+      "projects": {
+        "label": "Proyectos completados exitosamente",
+        "description": "Con clientes satisfechos"
+      },
+      "uptime": {
+        "label": "Uptime garantizado",
+        "description": "Infraestructura cloud robusta"
+      },
+      "savings": {
+        "label": "Ahorro promedio mensual",
+        "description": "Por cada automatización implementada"
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Testimonios",
+    "title": "Lo que dicen nuestros {{highlight}}",
+    "highlight": "clientes"
+  },
+  "portfolio": {
+    "badge": "Nuestro Trabajo",
+    "title": "Proyectos {{highlight}}",
+    "highlight": "Destacados",
+    "subtitle": "Algunos de los proyectos que hemos desarrollado para clientes de diferentes industrias."
+  },
+  "about": {
+    "badge": "Sobre Nosotros",
+    "title": "Quiénes {{highlight}}",
+    "highlight": "Somos",
+    "description": "En {{company}} somos un equipo apasionado de desarrolladores, diseñadores y especialistas en tecnología dedicados a crear soluciones digitales que generan impacto real en los negocios de nuestros clientes.",
+    "company": "KreaNex",
+    "experience": "Desde 2019, hemos ayudado a más de 100 empresas a modernizar sus procesos, automatizar tareas repetitivas y conectar mejor con sus clientes a través de tecnología de vanguardia.",
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Empoderar empresas mediante soluciones tecnológicas innovadoras que impulsen su crecimiento y competitividad en el mercado digital."
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "innovation": "Innovación",
+      "quality": "Calidad",
+      "transparency": "Transparencia",
+      "support": "Soporte Continuo"
+    }
+  },
+  "faq": {
+    "badge": "Preguntas Frecuentes",
+    "title": "¿Tienes {{highlight}}?",
+    "highlight": "dudas",
+    "subtitle": "Aquí respondemos las preguntas más comunes. Si no encuentras lo que buscas, no dudes en contactarnos.",
+    "contact": "¿No encontraste la respuesta que buscabas?",
+    "contactCta": "Contáctanos directamente"
+  },
+  "contact": {
+    "badge": "Contacto",
+    "title": "Empecemos tu {{highlight}}",
+    "highlight": "proyecto",
+    "subtitle": "Cuéntanos sobre tu proyecto y te contactaremos en menos de 24 horas con una propuesta personalizada.",
+    "info": {
+      "title": "Información de Contacto",
+      "location": "Ubicación",
+      "locationValue": "Murcia, España"
+    },
+    "whatsapp": {
+      "title": "¿Prefieres WhatsApp?",
+      "description": "Escríbenos directamente y te responderemos lo antes posible.",
+      "cta": "Iniciar chat"
+    },
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "email": "Email",
+      "emailPlaceholder": "tu@email.com",
+      "phone": "Teléfono",
+      "phonePlaceholder": "+34 612 345 678",
+      "service": "Tipo de servicio",
+      "servicePlaceholder": "Selecciona un servicio",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntanos sobre tu proyecto...",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando...",
+      "privacy": "Al enviar este formulario, aceptas nuestra",
+      "privacyLink": "Política de Privacidad"
+    },
+    "success": {
+      "title": "¡Mensaje enviado!",
+      "description": "Gracias por contactarnos. Te responderemos en menos de 24 horas.",
+      "cta": "Enviar otro mensaje"
+    }
+  },
+  "footer": {
+    "description": "Transformamos negocios mediante soluciones tecnológicas innovadoras. Desarrollo web, automatizaciones y chatbots con IA para empresas que quieren crecer.",
+    "quickLinks": "Enlaces Rápidos",
+    "services": "Servicios",
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Suscríbete para recibir noticias sobre tecnología y tendencias digitales.",
+      "placeholder": "Tu email",
+      "success": "¡Gracias por suscribirte!"
+    },
+    "followUs": "Síguenos",
+    "copyright": "© {{year}} KreaNex. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio"
+  },
+  "theme": {
+    "light": "Modo claro",
+    "dark": "Modo oscuro"
+  }
+}

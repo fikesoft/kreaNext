@@ -1,0 +1,213 @@
+{
+  "header": {
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "portfolio": "Portfolio",
+      "technologies": "Technologies",
+      "about": "About Us",
+      "contact": "Contact"
+    },
+    "cta": "Request Free Consultation",
+    "language": {
+      "es": "Español",
+      "en": "English"
+    }
+  },
+  "hero": {
+    "badge": "Innovative Technology Solutions",
+    "title": "We Transform Your {{highlight1}} with {{highlight2}} & AI",
+    "highlight1": "Business",
+    "highlight2": "Technology",
+    "subtitle": "Web development, automation, and intelligent chatbots for companies that want to grow and stand out in the digital era.",
+    "cta": {
+      "primary": "View Our Services",
+      "secondary": "Talk to an Expert"
+    },
+    "stats": {
+      "projects": "Projects Delivered",
+      "costReduction": "Cost Reduction",
+      "support": "24/7 Support"
+    }
+  },
+  "services": {
+    "badge": "Our Services",
+    "title": "Complete Digital {{highlight}}",
+    "highlight": "Solutions",
+    "subtitle": "We offer a comprehensive set of technology services designed to boost your business growth in the digital era.",
+    "learnMore": "Learn more",
+    "modal": {
+      "features": "Included features:",
+      "technologies": "Technologies:",
+      "consult": "Contact us",
+      "timeline": "Delivery time",
+      "cta": "Request free consultation",
+      "close": "Close"
+    }
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "Our {{highlight}}",
+    "highlight": "Process",
+    "subtitle": "A structured and transparent approach to take your project from idea to reality.",
+    "steps": {
+      "1": {
+        "title": "Initial Consultation",
+        "description": "We understand your needs, objectives, and specific challenges. We analyze your business to identify improvement opportunities."
+      },
+      "2": {
+        "title": "Proposal",
+        "description": "We design a customized solution with detailed scope, timeline, and transparent budget."
+      },
+      "3": {
+        "title": "Development",
+        "description": "We implement the solution using agile methodologies, constant updates, and periodic reviews."
+      },
+      "4": {
+        "title": "Launch",
+        "description": "We deploy the solution with complete training for your team and detailed documentation."
+      },
+      "5": {
+        "title": "Continuous Support",
+        "description": "Proactive maintenance, continuous improvements, and technical support available when you need it."
+      }
+    }
+  },
+  "technologies": {
+    "badge": "Tech Stack",
+    "title": "Technologies We {{highlight}}",
+    "highlight": "Use",
+    "subtitle": "We work with the most modern and robust technologies on the market to ensure scalable and high-quality solutions."
+  },
+  "industries": {
+    "badge": "Industries We Serve",
+    "title": "Solutions by {{highlight}}",
+    "highlight": "Industry",
+    "subtitle": "We adapt our technology solutions to the specific needs of each sector, guaranteeing optimal results for your type of business.",
+    "viewSolutions": "View solutions",
+    "modal": {
+      "solutions": "Specific solutions for",
+      "caseStudy": "Success story",
+      "cta": "Talk to a specialist",
+      "close": "Close"
+    }
+  },
+  "benefits": {
+    "badge": "Proven Results",
+    "title": "Key {{highlight}}",
+    "highlight": "Benefits",
+    "subtitle": "Numbers that speak for themselves. These are the results our clients have achieved by implementing our solutions.",
+    "stats": {
+      "responseTime": {
+        "label": "Reduction in customer response time",
+        "description": "With intelligent chatbots 24/7"
+      },
+      "projects": {
+        "label": "Projects successfully completed",
+        "description": "With satisfied customers"
+      },
+      "uptime": {
+        "label": "Guaranteed uptime",
+        "description": "Robust cloud infrastructure"
+      },
+      "savings": {
+        "label": "Average monthly savings",
+        "description": "Per each automation implemented"
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "What Our {{highlight}} Say",
+    "highlight": "Clients"
+  },
+  "portfolio": {
+    "badge": "Our Work",
+    "title": "Featured {{highlight}}",
+    "highlight": "Projects",
+    "subtitle": "Some of the projects we have developed for clients from different industries."
+  },
+  "about": {
+    "badge": "About Us",
+    "title": "Who We {{highlight}}",
+    "highlight": "Are",
+    "description": "At {{company}} we are a passionate team of developers, designers, and technology specialists dedicated to creating digital solutions that generate real impact on our clients' businesses.",
+    "company": "KreaNex",
+    "experience": "Since 2019, we have helped more than 100 companies modernize their processes, automate repetitive tasks, and better connect with their customers through cutting-edge technology.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To empower companies through innovative technology solutions that drive their growth and competitiveness in the digital market."
+    },
+    "values": {
+      "title": "Our Values",
+      "innovation": "Innovation",
+      "quality": "Quality",
+      "transparency": "Transparency",
+      "support": "Continuous Support"
+    }
+  },
+  "faq": {
+    "badge": "Frequently Asked Questions",
+    "title": "Do You Have {{highlight}}?",
+    "highlight": "Questions",
+    "subtitle": "Here we answer the most common questions. If you don't find what you're looking for, feel free to contact us.",
+    "contact": "Didn't find the answer you were looking for?",
+    "contactCta": "Contact us directly"
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Let's Start Your {{highlight}}",
+    "highlight": "Project",
+    "subtitle": "Tell us about your project and we will contact you within 24 hours with a customized proposal.",
+    "info": {
+      "title": "Contact Information",
+      "location": "Location",
+      "locationValue": "Murcia, Spain"
+    },
+    "whatsapp": {
+      "title": "Prefer WhatsApp?",
+      "description": "Write to us directly and we will respond as soon as possible.",
+      "cta": "Start chat"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+34 612 345 678",
+      "service": "Service type",
+      "servicePlaceholder": "Select a service",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your project...",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "privacy": "By submitting this form, you agree to our",
+      "privacyLink": "Privacy Policy"
+    },
+    "success": {
+      "title": "Message sent!",
+      "description": "Thank you for contacting us. We will respond within 24 hours.",
+      "cta": "Send another message"
+    }
+  },
+  "footer": {
+    "description": "We transform businesses through innovative technology solutions. Web development, automation, and AI chatbots for companies that want to grow.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Subscribe to receive news about technology and digital trends.",
+      "placeholder": "Your email",
+      "success": "Thank you for subscribing!"
+    },
+    "followUs": "Follow Us",
+    "copyright": "© {{year}} KreaNex. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "theme": {
+    "light": "Light mode",
+    "dark": "Dark mode"
+  }
+}
