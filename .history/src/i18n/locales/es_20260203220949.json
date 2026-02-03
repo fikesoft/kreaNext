@@ -16,7 +16,7 @@
   },
   "hero": {
     "badge": "Soluciones Tecnológicas Innovadoras",
-    "title": "Transformamos Tu {{highlight1}}",
+    "title": "Transformamos Tu {{highlight1}} con {{highlight2}} e IA",
     "highlight1": "Negocio",
     "highlight2": "Tecnología",
     "subtitle": "Desarrollo web, automatizaciones y chatbots inteligentes para empresas que quieren crecer y destacar en la era digital.",

@@ -16,7 +16,7 @@
   },
   "hero": {
     "badge": "Innovative Technology Solutions",
-    "title": "We Transform Your {{highlight1}}",
+    "title": "We Transform Your {{highlight1}} with {{highlight2}} & AI",
     "highlight1": "Business",
     "highlight2": "Technology",
     "subtitle": "Web development, automation, and intelligent chatbots for companies that want to grow and stand out in the digital era.",

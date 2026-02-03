@@ -1,7 +1,7 @@
-import { useEffect, useRef } from "react";
-import { useTranslation } from "react-i18next";
-import { ArrowRight, MessageCircle, Code2, Sparkles } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { useEffect, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
+import { ArrowRight, MessageCircle, Code2, Sparkles } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -11,7 +11,7 @@ export default function Hero() {
     const canvas = canvasRef.current;
     if (!canvas) return;
 
-    const ctx = canvas.getContext("2d");
+    const ctx = canvas.getContext('2d');
     if (!ctx) return;
 
     const resizeCanvas = () => {
@@ -19,7 +19,7 @@ export default function Hero() {
       canvas.height = window.innerHeight;
     };
     resizeCanvas();
-    window.addEventListener("resize", resizeCanvas);
+    window.addEventListener('resize', resizeCanvas);
 
     // Particle system
     const particles: Array<{
@@ -53,7 +53,7 @@ export default function Hero() {
       frameCount++;
       // Render every 2nd frame for performance (30fps)
       if (frameCount % 2 === 0) {
-        ctx.fillStyle = "rgba(10, 10, 15, 0.1)";
+        ctx.fillStyle = 'rgba(10, 10, 15, 0.1)';
         ctx.fillRect(0, 0, canvas.width, canvas.height);
 
         particles.forEach((particle, i) => {
@@ -74,11 +74,7 @@ export default function Hero() {
           // Draw connections (only check every 5th particle for performance)
           if (i % 5 === 0) {
             let connections = 0;
-            for (
-              let j = i + 1;
-              j < particles.length && connections < maxConnections;
-              j++
-            ) {
+            for (let j = i + 1; j < particles.length && connections < maxConnections; j++) {
               const dx = particles[j].x - particle.x;
               const dy = particles[j].y - particle.y;
               const distance = Math.sqrt(dx * dx + dy * dy);
@@ -103,7 +99,7 @@ export default function Hero() {
     animate();
 
     return () => {
-      window.removeEventListener("resize", resizeCanvas);
+      window.removeEventListener('resize', resizeCanvas);
       cancelAnimationFrame(animationId);
     };
   }, []);
@@ -111,7 +107,7 @@ export default function Hero() {
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      element.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
@@ -124,10 +120,7 @@ export default function Hero() {
       <canvas
         ref={canvasRef}
         className="absolute inset-0 w-full h-full"
-        style={{
-          background:
-            "linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 50%, #0a0a0f 100%)",
-        }}
+        style={{ background: 'linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 50%, #0a0a0f 100%)' }}
       />
 
       {/* Gradient Overlays */}
@@ -145,24 +138,21 @@ export default function Hero() {
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-tech-blue/10 border border-tech-blue/30 animate-fade-in">
                 <Sparkles className="w-4 h-4 text-tech-cyan" />
                 <span className="text-sm font-medium text-tech-cyan">
-                  {t("hero.badge")}
+                  {t('hero.badge')}
                 </span>
               </div>
 
               {/* Title */}
               <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight animate-slide-up stagger-1">
-                {t("hero.title", { highlight1: "", highlight2: "" }).replace(
-                  t("hero.highlight1", ""),
-                  "",
-                )}
-                <span className="text-gradient">
-                  {t("hero.highlight1")}
-                </span>{" "}
+                {t('hero.title', { highlight1: '', highlight2: '' }).replace(t('hero.highlight1', ''), '')}
+                <span className="text-gradient">{t('hero.highlight1')}</span>{' '}
+                {t('hero.title', { highlight1: '', highlight2: '' }).replace(t('hero.highlight2', ''), '')}
+                <span className="text-gradient">{t('hero.highlight2')}</span> e IA
               </h1>
 
               {/* Subtitle */}
               <p className="text-lg sm:text-xl text-gray-400 max-w-xl mx-auto lg:mx-0 animate-slide-up stagger-2">
-                {t("hero.subtitle")}
+                {t('hero.subtitle')}
               </p>
 
               {/* CTA Buttons */}
@@ -170,19 +160,19 @@ export default function Hero() {
                 <Button
                   size="lg"
                   className="bg-gradient-to-r from-tech-blue to-tech-cyan text-white hover:shadow-glow-lg transition-all duration-300 group px-8"
-                  onClick={() => scrollToSection("#servicios")}
+                  onClick={() => scrollToSection('#servicios')}
                 >
-                  {t("hero.cta.primary")}
+                  {t('hero.cta.primary')}
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
                 <Button
                   size="lg"
                   variant="outline"
                   className="border-white/30 text-white hover:bg-white/10 hover:border-white/50 transition-all duration-300 px-8"
-                  onClick={() => scrollToSection("#contacto")}
+                  onClick={() => scrollToSection('#contacto')}
                 >
                   <MessageCircle className="w-5 h-5 mr-2" />
-                  {t("hero.cta.secondary")}
+                  {t('hero.cta.secondary')}
                 </Button>
               </div>
 
@@ -190,21 +180,15 @@ export default function Hero() {
               <div className="flex flex-wrap gap-8 justify-center lg:justify-start pt-8 animate-slide-up stagger-4">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-white">100+</div>
-                  <div className="text-sm text-gray-500">
-                    {t("hero.stats.projects")}
-                  </div>
+                  <div className="text-sm text-gray-500">{t('hero.stats.projects')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-white">70%</div>
-                  <div className="text-sm text-gray-500">
-                    {t("hero.stats.costReduction")}
-                  </div>
+                  <div className="text-sm text-gray-500">{t('hero.stats.costReduction')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-white">24/7</div>
-                  <div className="text-sm text-gray-500">
-                    {t("hero.stats.support")}
-                  </div>
+                  <div className="text-sm text-gray-500">{t('hero.stats.support')}</div>
                 </div>
               </div>
             </div>
@@ -215,21 +199,15 @@ export default function Hero() {
                 {/* Main Circle */}
                 <div className="absolute inset-0 rounded-full bg-gradient-to-br from-tech-blue/20 to-tech-cyan/20 animate-pulse-glow" />
                 <div className="absolute inset-4 rounded-full bg-gradient-to-br from-tech-blue/30 to-tech-cyan/30 backdrop-blur-sm" />
-
+                
                 {/* Floating Elements */}
                 <div className="absolute top-8 right-8 p-4 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 animate-float">
                   <Code2 className="w-8 h-8 text-tech-cyan" />
                 </div>
-                <div
-                  className="absolute bottom-12 left-8 p-4 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 animate-float"
-                  style={{ animationDelay: "1s" }}
-                >
+                <div className="absolute bottom-12 left-8 p-4 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 animate-float" style={{ animationDelay: '1s' }}>
                   <Sparkles className="w-8 h-8 text-tech-orange" />
                 </div>
-                <div
-                  className="absolute top-1/2 -right-4 p-4 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 animate-float"
-                  style={{ animationDelay: "2s" }}
-                >
+                <div className="absolute top-1/2 -right-4 p-4 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 animate-float" style={{ animationDelay: '2s' }}>
                   <MessageCircle className="w-8 h-8 text-tech-blue" />
                 </div>
 
@@ -244,19 +222,10 @@ export default function Hero() {
                 </div>
 
                 {/* Orbiting Dots */}
-                <div
-                  className="absolute inset-0 animate-spin"
-                  style={{ animationDuration: "20s" }}
-                >
+                <div className="absolute inset-0 animate-spin" style={{ animationDuration: '20s' }}>
                   <div className="absolute top-0 left-1/2 w-3 h-3 -ml-1.5 rounded-full bg-tech-cyan" />
                 </div>
-                <div
-                  className="absolute inset-0 animate-spin"
-                  style={{
-                    animationDuration: "15s",
-                    animationDirection: "reverse",
-                  }}
-                >
+                <div className="absolute inset-0 animate-spin" style={{ animationDuration: '15s', animationDirection: 'reverse' }}>
                   <div className="absolute bottom-0 left-1/2 w-2 h-2 -ml-1 rounded-full bg-tech-blue" />
                 </div>
               </div>

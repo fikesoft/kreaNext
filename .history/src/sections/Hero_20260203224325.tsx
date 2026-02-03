@@ -155,9 +155,9 @@ export default function Hero() {
                   t("hero.highlight1", ""),
                   "",
                 )}
-                <span className="text-gradient">
-                  {t("hero.highlight1")}
-                </span>{" "}
+                <span className="text-gradient">{t("hero.highlight1")}</span>{" "}
+                <span className="text-gradient">{t("hero.highlight2")}</span> e
+                IA
               </h1>
 
               {/* Subtitle */}
