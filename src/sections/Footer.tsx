@@ -100,14 +100,14 @@ export default function Footer() {
                 </div>
                 <div className="flex items-center gap-3 text-gray-400">
                   <Mail className="w-4 h-4 text-tech-blue" />
-                  <a href="mailto:contacto@kreanex.es" className="text-sm hover:text-tech-blue transition-colors">
-                    contacto@kreanex.es
+                  <a href="mailto:rayengea@gmail.com" className="text-sm hover:text-tech-blue transition-colors">
+                    rayengea@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center gap-3 text-gray-400">
                   <Phone className="w-4 h-4 text-tech-blue" />
-                  <a href="tel:+34612345678" className="text-sm hover:text-tech-blue transition-colors">
-                    +34 612 345 678
+                  <a href="tel:+34600794114" className="text-sm hover:text-tech-blue transition-colors">
+                    +34 600 79 41 14
                   </a>
                 </div>
               </div>
@@ -279,7 +279,7 @@ export default function Footer() {
             <h3 className="font-semibold text-gray-900 dark:text-white">5. Contacto</h3>
             <p className="text-sm">
               Si tienes preguntas sobre esta política de privacidad, contáctanos en 
-              contacto@kreanex.es.
+              rayengea@gmail.com.
             </p>
             
             <p className="text-xs text-gray-500 mt-6">
