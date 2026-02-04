@@ -119,7 +119,7 @@ export default function Contacto() {
                   </a>
                   
                   <a
-                    href="tel:+34612345678"
+                    href="tel:+34600794114"
                     className="flex items-start gap-4 group"
                   >
                     <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-tech-blue/20 to-tech-cyan/20 flex items-center justify-center group-hover:from-tech-blue group-hover:to-tech-cyan transition-all duration-300">
@@ -128,7 +128,7 @@ export default function Contacto() {
                     <div>
                       <p className="text-sm text-gray-500 dark:text-gray-400">{t('contact.form.phone')}</p>
                       <p className="text-gray-900 dark:text-white font-medium group-hover:text-tech-blue transition-colors">
-                        +34 612 345 678
+                        +34 600 794 114
                       </p>
                     </div>
                   </a>
@@ -157,7 +157,7 @@ export default function Contacto() {
                   {t('contact.whatsapp.description')}
                 </p>
                 <a
-                  href="https://wa.me/34612345678"
+                  href="https://wa.me/34600794114"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-white text-green-600 px-4 py-2 rounded-lg font-medium hover:bg-white/90 transition-colors"
