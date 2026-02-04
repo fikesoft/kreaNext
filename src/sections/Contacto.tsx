@@ -168,11 +168,9 @@ export default function Contacto() {
               </div>
 
               {/* Google Maps */}
-              <div className="rounded-2xl overflow-hidden border border-gray-200 dark:border-white/10 shadow-lg">
+              <div className="rounded-2xl overflow-hidden border border-gray-200 dark:border-white/10 shadow-lg h-80">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125332.30733949768!2d-1.1824877!3d37.9923795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6381f5b1e5c5b1%3A0x403d278a576e680!2sMurcia%2C%20Espa%C3%B1a!5e0!3m2!1ses!2ses!4v1699999999999!5m2!1ses!2ses"
-                  width="100%"
-                  height="200"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
