@@ -104,7 +104,7 @@ export default function Contacto() {
                 </h3>
                 <div className="space-y-6">
                   <a
-                    href="mailto:contacto@kreanex.es"
+                    href="mailto:rayengea@gmail.com"
                     className="flex items-start gap-4 group"
                   >
                     <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-tech-blue/20 to-tech-cyan/20 flex items-center justify-center group-hover:from-tech-blue group-hover:to-tech-cyan transition-all duration-300">
